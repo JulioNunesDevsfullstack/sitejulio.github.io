@@ -225,7 +225,7 @@ section.sobre{
 /*section-conquistas*/
 
 section.conquistas{
-    background-color: #f9fafa;
+    background-color: #f5f5f5;
     padding: 40px 0;
 }
 
@@ -294,6 +294,7 @@ section.conquistas{
 
 section.sobre-empreendedor{
     padding: 50px 0;
+    flex-wrap: wrap;
     
     
 }
@@ -319,6 +320,7 @@ section.sobre-empreendedor{
 .sobre-empreendedor-content {
     width: 50%;
     padding: 0 50px;
+    
 }
 
 .sobre-empreendedor-content h2 {
@@ -403,8 +405,6 @@ section.sobre-empreendedor{
 
 
 
-
-
 @media screen and (max-width: 768px){
     .diferencias-single{
         width: 100%;
@@ -439,3 +439,84 @@ section.sobre-empreendedor{
     }
     
 }
+
+
+
+
+@media screen and (max-width: 650px){
+    .sobre-empreendedor-content {
+        width: 100%;
+        margin: 20px 0;
+   
+    }
+
+    
+    .sobre-empreendedor-img img{max-width: 150%;
+        margin: 0 50%;
+    }
+
+
+    .sobre-empreendedor-content h2 {
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 499px){
+    .sobre-empreendedor-content {
+        width: 100%;
+        margin: 20px 0;
+   
+    }
+
+    
+    .sobre-empreendedor-img img{max-width: 150%;
+        margin: 0 50%;
+    }
+
+
+    .sobre-empreendedor-content h2 {
+        text-align: center;
+    }
+    
+}
+
+
+@media screen and (max-width: 431px){
+.conquista-single{
+    padding-left: 20px;
+    width: 100%;
+    margin-top: 10px;
+    
+    
+
+}
+
+
+}
+
+    
+
+    
+
+@media screen and (max-width: 360px){
+    .sobre-empreendedor-content {
+        width: 100%;
+        margin: 20px 0;
+   
+    }
+
+    
+    .sobre-empreendedor-img img{max-width: 200%;
+        margin: 0 35px;
+    }
+
+
+    .sobre-empreendedor-content h2 {
+        text-align: center;
+    }
+    
+}
+
+
